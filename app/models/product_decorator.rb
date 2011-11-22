@@ -1,5 +1,5 @@
 Product.class_eval do
-  translates :name, :description
+#  translates :name, :description
   
   extend Globalize::Migratable
 end
